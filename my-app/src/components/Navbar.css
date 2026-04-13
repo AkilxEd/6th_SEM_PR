@@ -1,0 +1,97 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.6); /* 🔥 add this */
+  backdrop-filter: blur(10px);    /* optional glass effect */
+}
+
+.navbar-inner {
+  max-width: 1300px;
+  margin: auto;
+  padding: 24px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #00e0b8;
+}
+
+.logo span {
+  color: white;
+}
+
+/* NAV LINKS CONTAINER */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+/* LINKS */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #00e0b8;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* AUTH */
+.nav-auth {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-auth a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.logout-btn {
+  background: #ff5e62;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.logout-btn:hover {
+  background: #ff3b40;
+}
+
+.signup-btn {
+  background: #00e0b8;
+  color: #003a40 !important;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-left: 15px;
+}

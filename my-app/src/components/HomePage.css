@@ -1,0 +1,17 @@
+.home {
+  padding: 60px;
+  text-align: center;
+  background: #f0fdf4;
+  min-height: calc(100vh - 70px);
+}
+
+.home h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.home p {
+  max-width: 700px;
+  margin: auto;
+  color: #555;
+}

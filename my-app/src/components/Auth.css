@@ -1,0 +1,81 @@
+.auth-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #003b5c, #00897b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+.auth-box {
+  background: white;
+  padding: 40px;
+  width: 380px;
+  border-radius: 14px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* ROLE SWITCH */
+.role-select {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.role-select button {
+  border: none;
+  padding: 8px 20px;
+  margin: 0 6px;
+  cursor: pointer;
+  border-radius: 20px;
+  background: #eee;
+  font-weight: 500;
+}
+
+.role-select .active {
+  background: #00e0b8;
+  color: #003a40;
+}
+
+/* FORM */
+.auth-box form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #00e0b8;
+  color: #003a40;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.switch-link {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.switch-link span {
+  color: #00897b;
+  cursor: pointer;
+  font-weight: 500;
+}

@@ -1,0 +1,40 @@
+.reports-page {
+  min-height: 100vh;
+  padding: 60px;
+  background: linear-gradient(135deg, #071a24, #0b3c47);
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+.report-box {
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.report-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.report-row:last-child {
+  border-bottom: none;
+}
+
+.report-note {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 18px;
+}

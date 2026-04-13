@@ -1,0 +1,49 @@
+.prediction-page {
+  min-height: 100vh;
+  padding: 60px;
+  background: linear-gradient(135deg, #041f2c, #063a3f);
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+.prediction-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.prediction-card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.prediction-card h3 {
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.prediction-card h2 {
+  margin: 15px 0;
+  font-size: 30px;
+  color: #00e0b8;
+}
+
+.prediction-card p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.prediction-info {
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+}
